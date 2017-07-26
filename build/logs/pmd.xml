@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pmd version="@project.version@" timestamp="2017-07-26T16:05:23+00:00">
+  <file name="/home/git/stamp/src/LImageHandler.php">
+    <violation beginline="13" endline="730" rule="TooManyPublicMethods" ruleset="Code Size Rules" package="Images" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanypublicmethods" class="LImageHandler" priority="3">
+      The class LImageHandler has 16 public methods. Consider refactoring LImageHandler to keep number of public methods under 10.
+    </violation>
+    <violation beginline="13" endline="730" rule="ExcessiveClassComplexity" ruleset="Code Size Rules" package="Images" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessiveclasscomplexity" class="LImageHandler" priority="3">
+      The class LImageHandler has an overall complexity of 101 which is very high. The configured complexity threshold is 50.
+    </violation>
+    <violation beginline="255" endline="332" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Images" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="LImageHandler" method="watermark" priority="3">
+      The method watermark() has a Cyclomatic Complexity of 13. The configured cyclomatic complexity threshold is 10.
+    </violation>
+    <violation beginline="421" endline="481" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Images" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="LImageHandler" method="text" priority="3">
+      The method text() has a Cyclomatic Complexity of 11. The configured cyclomatic complexity threshold is 10.
+    </violation>
+    <violation beginline="586" endline="623" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Images" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="LImageHandler" method="save" priority="3">
+      The method save() has a Cyclomatic Complexity of 11. The configured cyclomatic complexity threshold is 10.
+    </violation>
+    <violation beginline="642" endline="728" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Images" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="LImageHandler" method="textWithBackground" priority="3">
+      The method textWithBackground() has a Cyclomatic Complexity of 11. The configured cyclomatic complexity threshold is 10.
+    </violation>
+    <violation beginline="642" endline="728" rule="ExcessiveParameterList" ruleset="Code Size Rules" package="Images" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessiveparameterlist" class="LImageHandler" method="textWithBackground" priority="3">
+      The method textWithBackground has 11 parameters. Consider reducing the number of parameters to less than 10.
+    </violation>
+  </file>
+  <file name="/home/git/stamp/src/Stamp.php">
+    <violation beginline="43" endline="43" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$fontSize'.
+    </violation>
+  </file>
+</pmd>

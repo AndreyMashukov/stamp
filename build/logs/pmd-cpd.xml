@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+  <duplication lines="50" tokens="181">
+    <file path="/home/git/stamp/src/LImageHandler.php" line="425"/>
+    <file path="/home/git/stamp/src/LImageHandler.php" line="656"/>
+    <codefragment>        $bBox = imagettfbbox($size, $angle, $fontFile, $text);
+        $textHeight = $bBox[1] - $bBox[7];
+        $textWidth = $bBox[2] - $bBox[0];
+
+
+
+        switch ($corner) {
+            case self::CORNER_LEFT_TOP:
+                $posX = $offsetX;
+                $posY = $offsetY;
+                break;
+            case self::CORNER_RIGHT_TOP:
+                $posX = $this-&gt;width - $textWidth - $offsetX;
+                $posY = $offsetY;
+                break;
+            case self::CORNER_LEFT_BOTTOM:
+                $posX = $offsetX;
+                $posY = $this-&gt;height - $textHeight - $offsetY;
+                break;
+            case self::CORNER_RIGHT_BOTTOM:
+                $posX = $this-&gt;width - $textWidth - $offsetX;
+                $posY = $this-&gt;height - $textHeight - $offsetY;
+                break;
+            case self::CORNER_CENTER:
+                $posX = floor(($this-&gt;width - $textWidth) / 2);
+                $posY = floor(($this-&gt;height - $textHeight) / 2);
+                break;
+            case self::CORNER_CENTER_TOP:
+                $posX = floor(($this-&gt;width - $textWidth) / 2);
+                $posY = $offsetY;
+                break;
+            case self::CORNER_CENTER_BOTTOM:
+                $posX = floor(($this-&gt;width - $textWidth) / 2);
+                $posY = $this-&gt;height - $textHeight - $offsetY;
+                break;
+            case self::CORNER_LEFT_CENTER:
+                $posX = $offsetX;
+                $posY = floor(($this-&gt;height - $textHeight) / 2);
+                break;
+            case self::CORNER_RIGHT_CENTER:
+                $posX = $this-&gt;width - $textWidth - $offsetX;
+                $posY = floor(($this-&gt;height - $textHeight) / 2);
+                break;
+            default:
+                throw new Exception('Invalid $corner value');
+        }
+
+        if ($alpha &gt; 0) {
+            $color = imagecolorallocatealpha($this-&gt;image, $color[0], $color[1], $color[2], $alpha);
+        } else {
+</codefragment>
+  </duplication>
+</pmd-cpd>
