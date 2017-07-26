@@ -31,6 +31,11 @@ class Stamp
 	    {
 		$stamped = "";
 
+		if (file_exists(__DIR__ . "/tmp") === false)
+		    {
+			mkdir(__DIR__ . "/tmp");
+		    } //end if
+
 		$name = sha1($photo) . "jpg";
 		if (strlen($photo) > 100 && sha1($photo) !== "dfa3a49eb8e007b3a30cdc58c40285b5e6d475e7")
 		    {
