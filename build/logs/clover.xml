@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1501085131">
-  <project timestamp="1501085131">
+<coverage generated="1501092085">
+  <project timestamp="1501092085">
     <package name="Images">
       <file name="/home/git/stamp/src/LImageHandler.php">
         <class name="LImageHandler" namespace="Images">
@@ -420,34 +420,36 @@
     <package name="AdService">
       <file name="/home/git/stamp/src/Stamp.php">
         <class name="Stamp" namespace="AdService">
-          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="21" elements="23" coveredelements="23"/>
+          <metrics methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="22" elements="25" coveredelements="23"/>
         </class>
         <line num="16" type="method" name="__construct" crap="1" count="1"/>
         <line num="18" type="stmt" count="1"/>
-        <line num="30" type="method" name="stamp" crap="3" count="1"/>
+        <line num="30" type="method" name="stamp" crap="4" count="1"/>
         <line num="32" type="stmt" count="1"/>
         <line num="34" type="stmt" count="1"/>
-        <line num="35" type="stmt" count="1"/>
-        <line num="37" type="stmt" count="1"/>
-        <line num="38" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="0"/>
         <line num="39" type="stmt" count="1"/>
         <line num="40" type="stmt" count="1"/>
-        <line num="41" type="stmt" count="1"/>
         <line num="42" type="stmt" count="1"/>
         <line num="43" type="stmt" count="1"/>
         <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
         <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
         <line num="48" type="stmt" count="1"/>
         <line num="49" type="stmt" count="1"/>
-        <line num="50" type="stmt" count="1"/>
         <line num="51" type="stmt" count="1"/>
-        <line num="52" type="stmt" count="1"/>
+        <line num="53" type="stmt" count="1"/>
         <line num="54" type="stmt" count="1"/>
         <line num="55" type="stmt" count="1"/>
-        <line num="58" type="stmt" count="1"/>
-        <metrics loc="64" ncloc="45" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="21" elements="23" coveredelements="23"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <metrics loc="69" ncloc="48" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="22" elements="25" coveredelements="23"/>
       </file>
     </package>
-    <metrics files="2" loc="793" ncloc="740" classes="2" methods="28" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="403" coveredstatements="100" elements="431" coveredelements="104"/>
+    <metrics files="2" loc="798" ncloc="743" classes="2" methods="28" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="405" coveredstatements="101" elements="433" coveredelements="104"/>
   </project>
 </coverage>

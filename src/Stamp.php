@@ -36,7 +36,7 @@ class Stamp
 			mkdir(__DIR__ . "/tmp");
 		    } //end if
 
-		$name = sha1($photo) . "jpg";
+		$name = sha1($photo) . ".jpg";
 		if (strlen($photo) > 100 && sha1($photo) !== "dfa3a49eb8e007b3a30cdc58c40285b5e6d475e7")
 		    {
 			file_put_contents(__DIR__ . "/tmp/" . $name, base64_decode($photo));

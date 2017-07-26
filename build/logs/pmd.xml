@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<pmd version="@project.version@" timestamp="2017-07-26T16:05:23+00:00">
+<pmd version="@project.version@" timestamp="2017-07-26T18:00:56+00:00">
   <file name="/home/git/stamp/src/LImageHandler.php">
     <violation beginline="13" endline="730" rule="TooManyPublicMethods" ruleset="Code Size Rules" package="Images" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanypublicmethods" class="LImageHandler" priority="3">
       The class LImageHandler has 16 public methods. Consider refactoring LImageHandler to keep number of public methods under 10.
@@ -24,7 +24,7 @@
     </violation>
   </file>
   <file name="/home/git/stamp/src/Stamp.php">
-    <violation beginline="43" endline="43" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+    <violation beginline="48" endline="48" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
       Avoid unused local variables such as '$fontSize'.
     </violation>
   </file>
